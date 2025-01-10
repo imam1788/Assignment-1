@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+
+}
+
+.header{
+  max-width: 100%;
+}
+/*Navigation style*/
+.nav{
+
+}
+
+.nav-div{
+  display: flex;
+  justify-content: center;
+
+  flex-direction: row;
+  gap: 753px;
+
+
+}
+
+.nav-div{
+
+}
+
+.nav-title{
+  font-family: Fira Sans;
+  color: rgb(14, 14, 14);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.nav-button{
+  font-family: Fira Sans;
+  color: rgb(0, 106, 80);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 30px;
+  margin: 24px 0;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 5px;
+  background-color: white;
+}
+
+/*banner style*/
+
+.hero-section{
+margin: 20px 105px 80px ;
+}
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 64px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 117px 0 117px 48px;
+}
+.hero-sub-title{
+margin: 0;
+color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 19px;
+font-weight: 500;
+}
+.hero-title{
+margin: 0;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 46px;
+font-weight: 700;
+}
+
+.hero-button{
+  border-radius: 8px;
+  border: none;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 24px 280px 0 0;
+  padding: 17px 34px 17px 34px;
+
+}
+
+.hero-picture{
+width: 380px;
+height: 400px;
+margin: 80px 48px 80px 0;
+}
+
+
+.vision-section{
+  margin: 80px 105px 80px ;
+}
+
+.vision-title{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.vision-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.vision-card{
+  display: flex;
+  justify-content: center;
+  gap: 19.2px;
+}
+.card-1{
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+}
+.card-2{
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+.card-3{
+  border-radius: 16px;
+  background: rgb(247, 235, 207);
+}
+.card-icon{
+  width: 40px;
+  height: 40px;
+  margin: 30px 0 25px 30px;
+}
+.card-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 12px 30px;
+}
+.card-description{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 11px;
+font-weight: 400;
+margin: 0 30px 24px;
+}
+
+.card-button{
+  color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 600;
+margin: 0 0 30px 30px ;
+border: none;
+}
+.button-1{
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  padding: 8px 16px;
+}
+.button-2{
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  padding: 8px 16px;
+}
+.button-3{
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+  padding: 8px 16px;
+}
+.speech-card{
+  padding: 25px 24px 38px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  margin: 32px 0 80px;
+}
+.speech{
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  color: rgba(14, 14, 14, 0.8);
+  background-size: 30px;
+  background-position: left top;
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 0 0 0;
+}
+.speaker-name{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 0 4px;
+
+}
+.speaker-title{
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
