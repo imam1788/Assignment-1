@@ -298,3 +298,97 @@ border: none;
 
 }
 
+
+.donate-section{
+  margin: 20px 105px 80px ;
+}
+.donate-title{
+  font-family: Fira Sans;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 24px;
+}
+.donate-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 70px 32px;
+
+}
+.donate-content{
+display: flex;
+gap: 20px;
+justify-content: center;
+margin: 0 83px 32px;
+
+}
+
+.one-hundred{
+  padding: 25px 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+}
+.two-hundred{
+  padding: 25px 40px;
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+border-radius: 16px;
+background: rgb(198, 228, 214);
+}
+.five-hundred{
+  padding: 25px 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+}
+.one-thousand{
+  padding: 25px 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+}
+
+.one-hundred:hover{
+  background-color: yellow;
+}
+.two-hundred:hover{
+  background-color: maroon ;
+}
+.five-hundred:hover{
+  background-color:rgb(9, 161, 92);
+}
+.one-thousand:hover{
+  background-color:palevioletred;
+}
+
+.input-donate{
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 400;
+  width: 825px;
+  height: 50px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0 100px 32px;
+}
+
+.donate-button{
+  text-align: center;
+}
